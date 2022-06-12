@@ -1,0 +1,39 @@
+.specs {
+    height: 100%;
+    background-color: #979dbdcb;
+    border-radius: 4px;
+    box-shadow: 0px 0 10px 5px #00000088, 5px 0 10px 0px #00000088;
+    margin-top: 32px;
+    text-align: left;
+}
+
+.specs-text {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+    text-transform: capitalize;
+}
+
+.specs-text>p {
+    color: rgb(230, 55, 55);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.specs-text>h4 {
+    color: rgb(23, 23, 77);
+    margin-bottom: 0;
+}
+
+
+.abilities {
+    background-color: rgb(230, 55, 55);
+}
+
+
+.types {
+    background-color: rgb(13 110 253);
+}
+
+
+  

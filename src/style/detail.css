@@ -1,0 +1,25 @@
+.detail-bg {
+    min-height: calc(100vh - 80px);
+    /* navbar excluded */
+    background-color: transparent;
+    text-transform: capitalize;
+}
+
+h1 {
+    margin-top: 2rem;
+    color: aliceblue;
+}
+
+.detail-bg .card {
+    background-color: transparent;
+    border: none;
+}
+
+.text-pills {
+    color: rgb(212, 235, 255);
+    border-radius: 6px;
+    padding: 2px 4px;
+    line-height: 1.8rem;
+    margin-bottom: 16px;
+    margin-right: 8px;
+}

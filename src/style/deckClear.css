@@ -1,0 +1,18 @@
+.li-clear svg{
+    width:24px;
+    height:24px;
+    margin-right: 8px;
+    margin-top: 4px;
+    fill: rgb(240, 255, 255);
+    font-size: 1.6em;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.li-clear svg:hover{
+    fill: rgb(230, 55, 55);
+    cursor: pointer;
+    transform-origin: center;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}

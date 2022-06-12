@@ -1,0 +1,14 @@
+.card-detail svg {
+    width: 32px;
+    height: 32px;
+    fill: rgb(240, 255, 255);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-detail svg:hover {
+    fill: #ffcb05;
+    transform-origin: center;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}

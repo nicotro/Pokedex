@@ -1,0 +1,11 @@
+.card-pill{
+    display:inline-block;
+    background-color: #ffcb05;
+    color: #17174d;
+    min-width: 2rem;
+    max-width: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 4px;
+}
+

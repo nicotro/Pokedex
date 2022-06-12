@@ -1,0 +1,35 @@
+.App {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  max-width: 960px;
+  min-height: 100vh;
+
+}
+
+.loading-ball{
+  position: relative;
+  top: 33vh;
+  opacity: 0.75;
+}
+
+.loading-anim{
+  display: block;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  animation: poketurn 1.2s infinite ease-in-out;
+}
+
+@keyframes poketurn {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}

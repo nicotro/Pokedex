@@ -1,0 +1,55 @@
+.pokelist-modal {
+    background-color: #ffe529;
+}
+
+
+.modal-open {
+    overflow-y: scroll !important;
+    /* Force a scrollbar on .modal */
+    padding-right: 0 !important;
+}
+
+.modal-open .sticky-top {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    /* avoid right aligned navbar content being overlapped by the .modal scrollbar */
+}
+
+.decklist-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: #163d6ac7;
+    text-align: left;
+    z-index: 10;
+
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.decklist-item:hover {
+    opacity: 1;
+}
+
+.poke-remove {
+    margin-top: 11px;
+    margin-left: 26px;
+}
+
+.poke-remove svg {
+    width: 48px;
+    height: 48px;
+    fill: #f0ffffb6;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.poke-remove svg:hover {
+    fill: #e63737;
+    cursor: pointer;
+    transform-origin: center;
+    transform: scale(1.2);
+}

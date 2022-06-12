@@ -1,0 +1,52 @@
+.card-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: transparent;
+    z-index: 10;
+}
+
+.card-id {
+    color: rgb(204, 59, 59);
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+.card-name {
+    color: #2b73b8;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 2px;
+}
+
+.pokecard {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.pokecard-img {
+    border-radius: 10px !important;
+}
+
+.pokecard-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 16px;
+    right: calc((100% - 10rem) / 2);
+    left: calc((100% - 10rem) / 2);
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #163d6ae0;
+    color: antiquewhite;
+    font-weight: bold;
+    z-index: 10;
+
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.pokecard-overlay:hover {
+    opacity: 1;
+}

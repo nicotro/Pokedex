@@ -1,0 +1,27 @@
+.navbar-pokeball{
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-pokeball:hover{
+    opacity: 0.75;
+    transform: scale(1.2);
+}
+
+.pokebutton{
+    background-color: transparent;
+    border: none;
+}
+
+.pokebutton:hover,
+.pokebutton:focus,
+.pokebutton:active{
+    border: none;
+}
+
+.deck-img{
+    background-color: #00004433;
+    border-radius: 50px;
+    border: solid 1px #00004466;
+    margin: 2px 0;
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Pokedex/static/css/main.62816dcd.css",
+    "main.js": "/Pokedex/static/js/main.bf5901e9.js",
+    "static/media/background_cards01_large_dark.jpg": "/Pokedex/static/media/background_cards01_large_dark.c051b644f294d9f18cdc.jpg",
+    "static/media/icon_pokeball_medium.png": "/Pokedex/static/media/icon_pokeball_medium.f5534034ad254490ea67.png",
+    "static/media/logo_pokemon.png": "/Pokedex/static/media/logo_pokemon.4cf96b05478bd078cdde.png",
+    "static/media/background_card_medium.jpg": "/Pokedex/static/media/background_card_medium.50d328db37727bbf76b4.jpg",
+    "static/media/logo_pokemon_small.png": "/Pokedex/static/media/logo_pokemon_small.539c274890b2049971e7.png",
+    "index.html": "/Pokedex/index.html",
+    "static/media/icon_pokeball_loading.svg": "/Pokedex/static/media/icon_pokeball_loading.f55be97a1f352971f24c4a5c2decebec.svg",
+    "main.62816dcd.css.map": "/Pokedex/static/css/main.62816dcd.css.map",
+    "main.bf5901e9.js.map": "/Pokedex/static/js/main.bf5901e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62816dcd.css",
+    "static/js/main.bf5901e9.js"
+  ]
+}

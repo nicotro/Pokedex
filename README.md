@@ -5,7 +5,7 @@ A short project to develop a Pockemon deck creation web-app using React & Redux.
 Explore a list of Pokemons from the Pokemon database, discover their main caracteristics and build your own deck.  
 [Try it here](https://nicotro.github.io/Pokedex/)
 
-- polished UI/UX to get a more friendly user experience
+- polished UI/UX to get a more user friendly experience
 - UI built with React-Bootstrap & custom css
 - Responsive design
 - Uses redux, axios and react-router-dom packages
